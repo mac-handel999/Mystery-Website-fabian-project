@@ -13,9 +13,8 @@ btn.addEventListener('click', (event) => {
   if (input === "Sorochi" || 
   input === "Glory" || 
   input === "Maria Assumter" ||
-  input === "Chisaokwu" || 
-  input === "Fabian"  || 
-  input === "Ik"
+  input === "Chisaokwu" 
+ 
   ) {
      anime1.style.display = "block"; // Display the container
     

@@ -6,7 +6,7 @@
 
 body {
     font-size: 1rem;
-    background: tomato;
+    background: darkred;
 }
 
 .logo {
@@ -39,11 +39,13 @@ button {
 }
 
 .container {
-  margin: 6px;
-  padding: 45px;
+  margin: 1px;
+  padding: 65px;
   background: #fff;
   border-radius: 5px;
   display:none ;
+  left: 50px;
+  right: 40px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -113,28 +115,19 @@ button {
   padding: 10px;
   background-color: #fff;
   text-align: center;
+  position: relative;
+  top: 100;
+  bottom: 100;
+  z-index: 1000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* From Uiverse.io by Juanes200122 */ 
 .cube-loader {
+  
   position: relative;
     /* u can choose any size */
+    
   width: 75px;
   height: 75px;
   transform-style: preserve-3d;
@@ -195,6 +188,7 @@ button {
 }
 
 .cube-top {
+  /*
   position: absolute;
   width: 79px;
   height: 70px;
